@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LUMIÈRE — Haute Parfumerie</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+ 
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="#">Collections</a>
+      <a href="#">Atelier</a>
+    </div>
+    <div class="nav-logo">LUMIÈRE</div>
+    <div class="nav-right">
+      <a href="#">Journal</a>
+      <a href="#" class="nav-bag">Bag (0)</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+ 
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#">Collections</a>
+    <a href="#">Atelier</a>
+    <a href="#">Journal</a>
+    <a href="#">Bag (0)</a>
+  </div>
+ 
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+      <div class="orb orb3"></div>
+      <div class="grain"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Maison de Parfum · Est. 2024</p>
+      <h1 class="hero-title">The Art of<br/><em>Invisible</em> Presence</h1>
+      <p class="hero-sub">Each fragrance is a chapter — composed by master perfumers,<br class="br-desk"/> worn by those who need no introduction.</p>
+      <div class="hero-actions">
+        <a href="#" class="btn-primary">Explore Collection</a>
+        <a href="#" class="btn-ghost">Our Story ↗</a>
+      </div>
+    </div>
+    <div class="hero-scroll">scroll to discover</div>
+  </section>
+ 
+  <!-- MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span>Oud & Amber</span><span class="dot">·</span>
+      <span>Rose Absolue</span><span class="dot">·</span>
+      <span>Santal Blanc</span><span class="dot">·</span>
+      <span>Nuit de Cashmere</span><span class="dot">·</span>
+      <span>Iris Noir</span><span class="dot">·</span>
+      <span>Vétiver Fumé</span><span class="dot">·</span>
+      <span>Oud & Amber</span><span class="dot">·</span>
+      <span>Rose Absolue</span><span class="dot">·</span>
+      <span>Santal Blanc</span><span class="dot">·</span>
+      <span>Nuit de Cashmere</span><span class="dot">·</span>
+      <span>Iris Noir</span><span class="dot">·</span>
+      <span>Vétiver Fumé</span><span class="dot">·</span>
+    </div>
+  </div>
+ 
+  <!-- FEATURED -->
+  <section class="featured" id="collection">
+    <div class="section-header">
+      <p class="section-label">— The Signature Edit</p>
+      <h2 class="section-title">Bestselling <em>Fragrances</em></h2>
+    </div>
+ 
+    <div class="products-grid">
+ 
+      <div class="product-card" data-note="Woody · Oriental">
+        <div class="product-img-wrap">
+          <div class="product-img img1">
+            <div class="product-shimmer"></div>
+          </div>
+          <div class="product-overlay">
+            <button class="btn-add">Add to Bag</button>
+          </div>
+          <div class="product-badge">Bestseller</div>
+        </div>
+        <div class="product-info">
+          <div class="product-note">Woody · Oriental</div>
+          <h3 class="product-name">Nuit de Cashmere</h3>
+          <p class="product-desc">Warm cashmere, smoky oud, and a whisper of black pepper.</p>
+          <div class="product-footer">
+            <span class="product-price">$195</span>
+            <div class="product-sizes">
+              <span class="size active">50ml</span>
+              <span class="size">100ml</span>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="product-card" data-note="Floral · Powdery">
+        <div class="product-img-wrap">
+          <div class="product-img img2">
+            <div class="product-shimmer"></div>
+          </div>
+          <div class="product-overlay">
+            <button class="btn-add">Add to Bag</button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-note">Floral · Powdery</div>
+          <h3 class="product-name">Iris Noir</h3>
+          <p class="product-desc">Bulgarian iris, violet leaf, and aged ambergris on a velvet skin.</p>
+          <div class="product-footer">
+            <span class="product-price">$220</span>
+            <div class="product-sizes">
+              <span class="size active">50ml</span>
+              <span class="size">100ml</span>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="product-card" data-note="Fresh · Aromatic">
+        <div class="product-img-wrap">
+          <div class="product-img img3">
+            <div class="product-shimmer"></div>
+          </div>
+          <div class="product-overlay">
+            <button class="btn-add">Add to Bag</button>
+          </div>
+          <div class="product-badge new">New</div>
+        </div>
+        <div class="product-info">
+          <div class="product-note">Fresh · Aromatic</div>
+          <h3 class="product-name">Santal Blanc</h3>
+          <p class="product-desc">Mysore sandalwood, sea salt, and a trail of white musk.</p>
+          <div class="product-footer">
+            <span class="product-price">$175</span>
+            <div class="product-sizes">
+              <span class="size active">50ml</span>
+              <span class="size">100ml</span>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="product-card" data-note="Spicy · Rich">
+        <div class="product-img-wrap">
+          <div class="product-img img4">
+            <div class="product-shimmer"></div>
+          </div>
+          <div class="product-overlay">
+            <button class="btn-add">Add to Bag</button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-note">Spicy · Rich</div>
+          <h3 class="product-name">Rose Absolue</h3>
+          <p class="product-desc">Grasse rose, saffron, and dark labdanum resin at its heart.</p>
+          <div class="product-footer">
+            <span class="product-price">$240</span>
+            <div class="product-sizes">
+              <span class="size active">50ml</span>
+              <span class="size">100ml</span>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="product-card" data-note="Earthy · Smoky">
+        <div class="product-img-wrap">
+          <div class="product-img img5">
+            <div class="product-shimmer"></div>
+          </div>
+          <div class="product-overlay">
+            <button class="btn-add">Add to Bag</button>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-note">Earthy · Smoky</div>
+          <h3 class="product-name">Vétiver Fumé</h3>
+          <p class="product-desc">Haitian vetiver, cold smoke, and dry cedar on bare earth.</p>
+          <div class="product-footer">
+            <span class="product-price">$185</span>
+            <div class="product-sizes">
+              <span class="size active">50ml</span>
+              <span class="size">100ml</span>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <div class="product-card" data-note="Gourmand · Warm">
+        <div class="product-img-wrap">
+          <div class="product-img img6">
+            <div class="product-shimmer"></div>
+          </div>
+          <div class="product-overlay">
+            <button class="btn-add">Add to Bag</button>
+          </div>
+          <div class="product-badge">Limited</div>
+        </div>
+        <div class="product-info">
+          <div class="product-note">Gourmand · Warm</div>
+          <h3 class="product-name">Oud & Amber</h3>
+          <p class="product-desc">Aged oud, liquid amber, vanilla resin, and smoked benzoin.</p>
+          <div class="product-footer">
+            <span class="product-price">$265</span>
+            <div class="product-sizes">
+              <span class="size active">50ml</span>
+              <span class="size">100ml</span>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+    </div>
+ 
+    <div class="view-all-wrap">
+      <a href="#" class="btn-outline">View All Fragrances</a>
+    </div>
+  </section>
+ 
+  <!-- PHILOSOPHY BANNER -->
+  <section class="philosophy">
+    <div class="philosophy-inner">
+      <div class="philosophy-text">
+        <p class="section-label">— Our Philosophy</p>
+        <h2>Scent is memory<br/><em>before language.</em></h2>
+        <p>We source only the rarest raw materials — steam-distilled Bulgarian rose, wild-harvested oud from Assam, Grasse jasmine — and blend them in small batches of no more than 500 bottles. Every flacon is numbered. Every formula is yours.</p>
+        <a href="#" class="btn-primary">Visit the Atelier</a>
+      </div>
+      <div class="philosophy-visual">
+        <div class="philosophy-orb"></div>
+        <div class="philosophy-quote">"A perfume is a work of art that lives on skin."</div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- PROCESS STEPS -->
+  <section class="process">
+    <div class="section-header">
+      <p class="section-label">— The Craft</p>
+      <h2 class="section-title">From Source <em>to Skin</em></h2>
+    </div>
+    <div class="steps-grid">
+      <div class="step">
+        <div class="step-num">01</div>
+        <h3>Raw Sourcing</h3>
+        <p>We travel to the origin — Grasse, Mysore, Assam — and select only the finest harvest from trusted farmers.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <h3>Master Blending</h3>
+        <p>Our in-house perfumer composes each accord by hand, testing hundreds of iterations over months.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <h3>Small-Batch Fill</h3>
+        <p>Every bottle is filled, weighed, and sealed by hand in our Paris atelier. No automation. No shortcuts.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">04</div>
+        <h3>Yours, Forever</h3>
+        <p>Each flacon ships in a handcrafted lacquer box with a wax seal and a numbered certificate of origin.</p>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="section-header">
+      <p class="section-label">— Worn & Loved</p>
+      <h2 class="section-title">From Our <em>Community</em></h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p>"Nuit de Cashmere is unlike anything I've worn. It lasts all day and somehow smells different — and better — six hours in."</p>
+        <div class="testi-author">— Sofia R., London</div>
+      </div>
+      <div class="testi-card featured-testi">
+        <div class="testi-stars">★★★★★</div>
+        <p>"I've bought from niche houses across Europe. LUMIÈRE is the only one that made me stop mid-sentence to ask myself what I was wearing."</p>
+        <div class="testi-author">— Karim A., Dubai</div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p>"The packaging alone is a gift. But the fragrance — Rose Absolue — it's just devastating. Worth every penny."</p>
+        <div class="testi-author">— Mei L., Singapore</div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- DISCOVERY SET CTA -->
+  <section class="cta-section">
+    <div class="cta-inner">
+      <div class="cta-bg-orb"></div>
+      <p class="section-label">— Not Sure Where to Start?</p>
+      <h2>Try the Discovery <em>Set</em></h2>
+      <p>Six 5ml travel vials — our entire signature range — delivered in a silk-lined travel pouch. Find your signature, then commit.</p>
+      <div class="cta-price">$65 · Free Shipping Worldwide</div>
+      <a href="#" class="btn-primary">Get the Discovery Set</a>
+    </div>
+  </section>
+ 
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo">LUMIÈRE</div>
+        <p>Haute parfumerie, composed with intention.<br/>Paris · New York · Dubai</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <a href="#">All Fragrances</a>
+          <a href="#">Discovery Set</a>
+          <a href="#">Gift Sets</a>
+          <a href="#">Refills</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="#">Our Story</a>
+          <a href="#">The Atelier</a>
+          <a href="#">Journal</a>
+          <a href="#">Stockists</a>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <a href="#">Shipping & Returns</a>
+          <a href="#">FAQ</a>
+          <a href="#">Contact</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 LUMIÈRE Parfumerie. All rights reserved. · Crafted as an AI design project.</p>
+      <div class="footer-socials">
+        <a href="#">Instagram</a>
+        <a href="#">Pinterest</a>
+        <a href="#">TikTok</a>
+      </div>
+    </div>
+  </footer>
+ 
+  <script>
+    // Hamburger toggle
+    const ham = document.getElementById('hamburger');
+    const menu = document.getElementById('mobileMenu');
+    ham.addEventListener('click', () => {
+      ham.classList.toggle('open');
+      menu.classList.toggle('open');
+    });
+ 
+    // Size selector
+    document.querySelectorAll('.product-sizes').forEach(wrap => {
+      wrap.querySelectorAll('.size').forEach(btn => {
+        btn.addEventListener('click', () => {
+          wrap.querySelectorAll('.size').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+        });
+      });
+    });
+ 
+    // Navbar scroll
+    const navbar = document.querySelector('.navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 60);
+    });
+ 
+    // Fade-in on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+ 
+    document.querySelectorAll('.product-card, .step, .testi-card, .philosophy-inner, .cta-inner').forEach(el => {
+      el.classList.add('fade-up');
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
+ 
